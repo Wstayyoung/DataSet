@@ -48,5 +48,6 @@ GROUP_CONCAT(DISTINCT expression
     ORDER BY expression  
     SEPARATOR sep);  
 类似于把SELECT v FROM t GROUP BY v;语句的结果串接起来。  
+![](https://github.com/Wstayyoung/DataSet/blob/main/img/GROUP_CONCAT.png)
 
 
