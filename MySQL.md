@@ -42,3 +42,11 @@ END;
 The AS command is used to rename a column or table with an alias.  
 
 An alias only exists for the duration of the query.  
+
+**GROUP_CONCAT**  
+GROUP_CONCAT(DISTINCT expression  
+    ORDER BY expression  
+    SEPARATOR sep);  
+类似于把SELECT v FROM t GROUP BY v;语句的结果串接起来。  
+
+
